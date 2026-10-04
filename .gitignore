@@ -1,0 +1,41 @@
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+# Rider / ReSharper — ignore machine-local workspace state but keep the
+# shareable run configuration(s) under .idea/.run so `dotnet`/Rider's Run
+# button works out of the box for anyone who clones this repo.
+.idea/*
+!.idea/.run/
+!.idea/.run/**
+*.user
+*.suo
+
+# Visual Studio
+.vs/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Sky Sentry runtime data (logs/events) must live under %LocalAppData%\SkySentry,
+# not the repo — but ignore it here too in case anything accidentally lands
+# under the repo root during local development.
+/Events/
+/logs/
+/.validation-dual/
+# Temporary recordings, captures, credentials and local environment settings
+**/rolling-buffer/
+**/rolling-buffers/
+**/captures/
+**/thumbnails/
+*.log
+*.dmp
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12

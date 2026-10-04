@@ -1,0 +1,67 @@
+{
+  "Device": "HD Pro Webcam C920",
+  "Format": "640x480 @ 30fps",
+  "BaselineCaptureFps": 30.00015840083636,
+  "AnalysisEnabledCaptureFps": 29.93234149944444,
+  "AnalysisFps": 8.639215635386453,
+  "CpuSeconds": 11.171875,
+  "AnalysisElapsedSeconds": 63.8105776,
+  "PeakWorkingSetBytes": 166690816,
+  "DroppedAnalysisFrames": 1271,
+  "DroppedRecordingFrames": 0,
+  "MaximumConcurrentTracks": 34,
+  "DistinctTrackIds": 189,
+  "SuppressedGlobalFrames": 0,
+  "ObservedStatuses": [
+    "Warming background",
+    "Monitoring motion"
+  ],
+  "DecodedEventFrames": 1900,
+  "Event": {
+    "EventId": "dd2af74997b349e293925bf5e8813947",
+    "TriggeredAtUtc": "2026-10-04T22:07:43.0534763+00:00",
+    "CreatedAtUtc": "2026-10-04T22:08:16.8080047+00:00",
+    "ApplicationVersion": "0.3.0-phase3",
+    "RequestedPreEventDuration": "00:00:30",
+    "RequestedPostEventDuration": "00:00:30",
+    "Cameras": [
+      {
+        "CameraLabel": "Camera 1",
+        "Success": true,
+        "FailureReason": null,
+        "VideoRelativePath": "Camera_1.mp4",
+        "ThumbnailRelativePath": "Camera_1-thumbnail.jpg",
+        "Width": 640,
+        "Height": 480,
+        "RequestedFps": 30,
+        "AchievedFps": 29.944403085337278,
+        "ActualPreEventDuration": "00:00:30",
+        "ActualPostEventDuration": "00:00:31.6648011",
+        "RecordingStartUtc": "2026-10-04T22:07:11.2770136+00:00",
+        "RecordingEndUtc": "2026-10-04T22:08:14.7187473+00:00",
+        "DroppedFrameCount": 0,
+        "TriggerMonotonic": "00:00:40.0253817",
+        "RecordingStartMonotonic": "00:00:08.2484492",
+        "RecordingEndMonotonic": "00:01:11.6901828",
+        "PlaybackFrameRate": 29.933012941845877,
+        "Warning": null
+      }
+    ],
+    "AnalysisResults": [],
+    "AssociatedTracks": [
+      {
+        "TrackId": "02b13499-206",
+        "CameraId": "@device:pnp:\\\\?\\usb#vid_046d\u0026pid_082d\u0026mi_00#a\u00262aa7f292\u00260\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "CameraLabel": "Camera 1",
+        "TriggerReason": "Manual Save Event",
+        "Duration": "00:00:00.4958626",
+        "PeakAngularVelocity": null,
+        "DirectionChangeDegrees": null
+      }
+    ],
+    "TriggerReason": "Manual Save Event"
+  },
+  "HumanControlledObjectMotionVerified": false,
+  "DualPhysicalCameraVerified": false,
+  "CalibrationVerified": false
+}

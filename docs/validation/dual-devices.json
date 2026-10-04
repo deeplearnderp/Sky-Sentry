@@ -1,0 +1,374 @@
+[
+  {
+    "DeviceId": "@device:pnp:\\\\?\\usb#vid_046d\u0026pid_082d\u0026mi_00#a\u00262aa7f292\u00260\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+    "FriendlyName": "HD Pro Webcam C920",
+    "FallbackIndex": 0,
+    "SupportedFormats": [
+      {
+        "Width": 640,
+        "Height": 480,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 160,
+        "Height": 90,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 160,
+        "Height": 120,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 176,
+        "Height": 144,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 320,
+        "Height": 180,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 320,
+        "Height": 240,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 352,
+        "Height": 288,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 432,
+        "Height": 240,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 640,
+        "Height": 360,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 800,
+        "Height": 448,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 800,
+        "Height": 600,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 416666,
+        "FrameRate": 24.00003840006144
+      },
+      {
+        "Width": 864,
+        "Height": 480,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 416666,
+        "FrameRate": 24.00003840006144
+      },
+      {
+        "Width": 960,
+        "Height": 720,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 666666,
+        "FrameRate": 15.000015000015
+      },
+      {
+        "Width": 1024,
+        "Height": 576,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 666666,
+        "FrameRate": 15.000015000015
+      },
+      {
+        "Width": 1280,
+        "Height": 720,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 1000000,
+        "FrameRate": 10
+      },
+      {
+        "Width": 1600,
+        "Height": 896,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 1333333,
+        "FrameRate": 7.500001875000469
+      },
+      {
+        "Width": 1920,
+        "Height": 1080,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 2000000,
+        "FrameRate": 5
+      },
+      {
+        "Width": 2304,
+        "Height": 1296,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 4999998,
+        "FrameRate": 2.00000080000032
+      },
+      {
+        "Width": 2304,
+        "Height": 1536,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 4999998,
+        "FrameRate": 2.00000080000032
+      },
+      {
+        "Width": 800,
+        "Height": 600,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 864,
+        "Height": 480,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 960,
+        "Height": 720,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 1024,
+        "Height": 576,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 1280,
+        "Height": 720,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 1600,
+        "Height": 896,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 1920,
+        "Height": 1080,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      }
+    ]
+  },
+  {
+    "DeviceId": "@device:pnp:\\\\?\\usb#vid_328f\u0026pid_00c0\u0026mi_00#9\u002659a0e33\u00261\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+    "FriendlyName": "EMEET PIXY",
+    "FallbackIndex": 1,
+    "SupportedFormats": [
+      {
+        "Width": 3840,
+        "Height": 2160,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 2560,
+        "Height": 1440,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 1920,
+        "Height": 1080,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 1280,
+        "Height": 960,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 1280,
+        "Height": 720,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 1024,
+        "Height": 576,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 960,
+        "Height": 720,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 800,
+        "Height": 600,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 640,
+        "Height": 480,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 640,
+        "Height": 360,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      }
+    ]
+  },
+  {
+    "DeviceId": "@device:pnp:\\\\?\\swd#vcamdevapi#ae10d14299460f4385b9172b6c6b8b1d25d2a12ee5f306ae2f452e7e94e16fa8#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{fcebba03-9d13-4c13-9940-cc84fcd132d1}",
+    "FriendlyName": "Cory\u0027s S24 FE (Windows Virtual Camera)",
+    "FallbackIndex": 2,
+    "SupportedFormats": [
+      {
+        "Width": 1280,
+        "Height": 720,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      }
+    ]
+  },
+  {
+    "DeviceId": "@device:sw:{860BB310-5D01-11D0-BD3B-00A0C911CE86}\\{0FEDCBA9-8765-4321-0FED-CBA987654321}",
+    "FriendlyName": "Meta Quest 3",
+    "FallbackIndex": 3,
+    "SupportedFormats": []
+  },
+  {
+    "DeviceId": "@device:sw:{860BB310-5D01-11D0-BD3B-00A0C911CE86}\\{12345678-90AB-CDEF-1234-567890ABCDEF}",
+    "FriendlyName": "Meta Quest 3S",
+    "FallbackIndex": 4,
+    "SupportedFormats": []
+  },
+  {
+    "DeviceId": "@device:sw:{860BB310-5D01-11D0-BD3B-00A0C911CE86}\\{1BA5C5B4-1BC8-4480-B2AE-B5EF1920EC8F}",
+    "FriendlyName": "Meta Quest 2",
+    "FallbackIndex": 5,
+    "SupportedFormats": []
+  },
+  {
+    "DeviceId": "@device:sw:{860BB310-5D01-11D0-BD3B-00A0C911CE86}\\{4A197D07-74F1-4730-AA47-3267604D0857}",
+    "FriendlyName": "EMEET STUDIO Virtual Camera",
+    "FallbackIndex": 6,
+    "SupportedFormats": [
+      {
+        "Width": 1920,
+        "Height": 1080,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 3840,
+        "Height": 2160,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 2560,
+        "Height": 1440,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 1280,
+        "Height": 720,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 1024,
+        "Height": 576,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 864,
+        "Height": 486,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      },
+      {
+        "Width": 640,
+        "Height": 360,
+        "FrameRateNumerator": 10000000,
+        "FrameRateDenominator": 333333,
+        "FrameRate": 30.00003000003
+      }
+    ]
+  },
+  {
+    "DeviceId": "@device:sw:{860BB310-5D01-11D0-BD3B-00A0C911CE86}\\{99621C9D-7C66-4B70-86D1-E0CE7A8D7463}",
+    "FriendlyName": "AMD Privacy View camera",
+    "FallbackIndex": 7,
+    "SupportedFormats": []
+  },
+  {
+    "DeviceId": "@device:sw:{860BB310-5D01-11D0-BD3B-00A0C911CE86}\\{A1B2C3D4-E5F6-7890-1234-56789ABCDEF0}",
+    "FriendlyName": "Meta Quest Pro",
+    "FallbackIndex": 8,
+    "SupportedFormats": []
+  },
+  {
+    "DeviceId": "@device:sw:{860BB310-5D01-11D0-BD3B-00A0C911CE86}\\{A3FCE0F5-3493-419F-958A-ABA1250EC20B}",
+    "FriendlyName": "OBS Virtual Camera",
+    "FallbackIndex": 9,
+    "SupportedFormats": []
+  }
+]

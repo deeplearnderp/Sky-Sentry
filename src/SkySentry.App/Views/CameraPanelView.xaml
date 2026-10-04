@@ -1,0 +1,62 @@
+<UserControl x:Class="SkySentry.App.Views.CameraPanelView"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ xmlns:controls="clr-namespace:SkySentry.App.Controls">
+ <Border Background="#17202D" CornerRadius="8" Padding="10">
+  <Grid>
+   <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+   <DockPanel Margin="0,0,0,8">
+    <TextBlock DockPanel.Dock="Right" Text="{Binding State}" Foreground="#6BDDB1" FontSize="12"/>
+    <StackPanel><TextBlock Text="{Binding SessionLabel}" FontSize="16" FontWeight="SemiBold"/><TextBlock Text="{Binding CameraIdentity}" FontSize="12" Foreground="#91A8C3"/><TextBlock Text="{Binding CalibrationSummary}" FontSize="11" Foreground="#E6C88B"/></StackPanel>
+   </DockPanel>
+   <Grid Grid.Row="1" Background="#080D14" ClipToBounds="True">
+    <Image Source="{Binding PreviewImage}" Stretch="Uniform" RenderOptions.BitmapScalingMode="LowQuality"/>
+    <TextBlock Text="Select a camera and press Start" Foreground="#617994" HorizontalAlignment="Center" VerticalAlignment="Center">
+     <TextBlock.Style><Style TargetType="TextBlock"><Setter Property="Visibility" Value="Collapsed"/><Style.Triggers><DataTrigger Binding="{Binding PreviewImage}" Value="{x:Null}"><Setter Property="Visibility" Value="Visible"/></DataTrigger></Style.Triggers></Style></TextBlock.Style>
+    </TextBlock>
+    <controls:TrackOverlay Snapshot="{Binding AnalysisSnapshot}" Options="{Binding Overlays}" SelectedId="{Binding HighlightTrackId}" Preview="{Binding PreviewImage}" IsHitTestVisible="False"/>
+   </Grid>
+   <Grid Grid.Row="2" Margin="0,8,0,6">
+    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+    <TextBlock FontSize="11" Foreground="#91A8C3">
+     <Run Text="Capture "/><Run Text="{Binding CaptureFps, Mode=OneWay, StringFormat={}{0:F1}}"/><Run Text=" FPS · "/>
+     <Run Text="{Binding BufferStatus, Mode=OneWay}"/>
+    </TextBlock>
+    <TextBlock Grid.Row="1" Text="{Binding AnalysisStatus}" FontSize="11" Foreground="#6BDDB1" Margin="0,3,0,0"/>
+   </Grid>
+   <WrapPanel Grid.Row="3" Margin="0,0,0,6">
+    <CheckBox Content="Boxes" IsChecked="{Binding ShowBoxes}"/>
+    <CheckBox Content="IDs" IsChecked="{Binding ShowIds}"/>
+    <CheckBox Content="Trails" IsChecked="{Binding ShowTrajectories}"/>
+    <CheckBox Content="Speeds" IsChecked="{Binding ShowSpeeds}"/>
+    <CheckBox Content="Diagnostics" IsChecked="{Binding ShowDiagnostics}"/>
+    <CheckBox Content="Analysis" IsChecked="{Binding AnalysisEnabled}"/>
+   </WrapPanel>
+   <StackPanel Grid.Row="4">
+    <Grid>
+     <Grid.ColumnDefinitions><ColumnDefinition Width="3*"/><ColumnDefinition Width="2*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+     <ComboBox ItemsSource="{Binding AvailableDevices}" SelectedItem="{Binding SelectedDevice}" DisplayMemberPath="FriendlyName" IsEnabled="{Binding CanConfigure}" Margin="0,0,5,0"/>
+     <ComboBox Grid.Column="1" ItemsSource="{Binding AvailableFormats}" SelectedItem="{Binding SelectedFormat}" IsEnabled="{Binding CanConfigure}"/>
+     <StackPanel Grid.Column="2" Orientation="Horizontal">
+      <Button Content="Start" Command="{Binding StartCommand}"/><Button Content="Stop" Command="{Binding StopCommand}"/><Button Content="Restart" Command="{Binding RestartCommand}"/>
+     </StackPanel>
+    </Grid>
+    <Expander Header="Camera calibration &amp; options" Foreground="#91A8C3" Margin="0,7,0,0">
+     <StackPanel Margin="0,6,0,0">
+      <WrapPanel>
+       <TextBlock Text="Horizontal FOV °" VerticalAlignment="Center" Margin="0,0,6,0"/>
+       <TextBox Text="{Binding HorizontalFov, UpdateSourceTrigger=PropertyChanged}" Width="65" Margin="0,0,12,0"/>
+       <TextBlock Text="Vertical FOV °" VerticalAlignment="Center" Margin="0,0,6,0"/>
+       <TextBox Text="{Binding VerticalFov, UpdateSourceTrigger=PropertyChanged}" Width="65"/>
+       <CheckBox Content="FOV independently measured" IsChecked="{Binding FovMeasured}"/>
+       <Button Content="Apply FOV" Command="{Binding ApplyCalibrationCommand}"/>
+      </WrapPanel>
+      <TextBlock Text="{Binding CalibrationStatus}" FontSize="11" Foreground="#E6C88B" TextWrapping="Wrap" Margin="0,4,0,4"/>
+      <TextBlock Text="{Binding CaptureDiagnostics}" FontSize="11" TextWrapping="Wrap" Margin="0,4,0,4"/>
+      <TextBlock Text="{Binding StatusMessage}" FontSize="11" TextWrapping="Wrap"/>
+      <CheckBox Content="Allow duplicate device" IsChecked="{Binding AllowDuplicateDevice}" Margin="0,4,0,0"/>
+     </StackPanel>
+    </Expander>
+   </StackPanel>
+  </Grid>
+ </Border>
+</UserControl>

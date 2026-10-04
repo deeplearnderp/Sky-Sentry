@@ -1,0 +1,509 @@
+{
+  "Devices": [
+    {
+      "DeviceId": "@device:pnp:\\\\?\\usb#vid_046d\u0026pid_082d\u0026mi_00#a\u00262aa7f292\u00260\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+      "FriendlyName": "HD Pro Webcam C920",
+      "FallbackIndex": 0,
+      "SupportedFormats": [
+        {
+          "Width": 640,
+          "Height": 480,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 160,
+          "Height": 90,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 160,
+          "Height": 120,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 176,
+          "Height": 144,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 320,
+          "Height": 180,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 320,
+          "Height": 240,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 352,
+          "Height": 288,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 432,
+          "Height": 240,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 640,
+          "Height": 360,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 800,
+          "Height": 448,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 800,
+          "Height": 600,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 416666,
+          "FrameRate": 24.00003840006144
+        },
+        {
+          "Width": 864,
+          "Height": 480,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 416666,
+          "FrameRate": 24.00003840006144
+        },
+        {
+          "Width": 960,
+          "Height": 720,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 666666,
+          "FrameRate": 15.000015000015
+        },
+        {
+          "Width": 1024,
+          "Height": 576,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 666666,
+          "FrameRate": 15.000015000015
+        },
+        {
+          "Width": 1280,
+          "Height": 720,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 1000000,
+          "FrameRate": 10
+        },
+        {
+          "Width": 1600,
+          "Height": 896,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 1333333,
+          "FrameRate": 7.500001875000469
+        },
+        {
+          "Width": 1920,
+          "Height": 1080,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 2000000,
+          "FrameRate": 5
+        },
+        {
+          "Width": 2304,
+          "Height": 1296,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 4999998,
+          "FrameRate": 2.00000080000032
+        },
+        {
+          "Width": 2304,
+          "Height": 1536,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 4999998,
+          "FrameRate": 2.00000080000032
+        },
+        {
+          "Width": 800,
+          "Height": 600,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 864,
+          "Height": 480,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 960,
+          "Height": 720,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 1024,
+          "Height": 576,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 1280,
+          "Height": 720,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 1600,
+          "Height": 896,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 1920,
+          "Height": 1080,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        }
+      ]
+    },
+    {
+      "DeviceId": "@device:pnp:\\\\?\\usb#vid_328f\u0026pid_00c0\u0026mi_00#9\u002659a0e33\u00261\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+      "FriendlyName": "EMEET PIXY",
+      "FallbackIndex": 1,
+      "SupportedFormats": [
+        {
+          "Width": 3840,
+          "Height": 2160,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 2560,
+          "Height": 1440,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 1920,
+          "Height": 1080,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 1280,
+          "Height": 960,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 1280,
+          "Height": 720,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 1024,
+          "Height": 576,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 960,
+          "Height": 720,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 800,
+          "Height": 600,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 640,
+          "Height": 480,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        },
+        {
+          "Width": 640,
+          "Height": 360,
+          "FrameRateNumerator": 10000000,
+          "FrameRateDenominator": 333333,
+          "FrameRate": 30.00003000003
+        }
+      ]
+    }
+  ],
+  "RequestedModes": [
+    "1920x1080 @ 30fps",
+    "1280x720 @ 30fps"
+  ],
+  "ActualModes": [
+    "1920x1080",
+    "1280x720"
+  ],
+  "FirstFramesUtc": [
+    "2026-10-04T23:15:40.7531557+00:00",
+    "2026-10-04T23:15:42.3397837+00:00"
+  ],
+  "AtTriggerFrames": [
+    {
+      "SequenceNumber": 1457,
+      "MonotonicElapsed": "00:00:52.1903161",
+      "WallClockUtc": "2026-10-04T23:16:51.0106521+00:00"
+    },
+    {
+      "SequenceNumber": 1288,
+      "MonotonicElapsed": "00:00:45.3447506",
+      "WallClockUtc": "2026-10-04T23:16:51.0006102+00:00"
+    }
+  ],
+  "FirstFrameSkewMilliseconds": 1586.628,
+  "SampledLatestSkewMilliseconds": {
+    "Minimum": 4.1479,
+    "Median": 10.6206,
+    "Maximum": 35.9933
+  },
+  "BaselineCaptureFps": [
+    29.91965077783612,
+    29.719440108087806
+  ],
+  "CaptureFps": [
+    28.911502280772226,
+    29.685824093576112
+  ],
+  "AnalysisFps": [
+    9.346214865086086,
+    9.337539459387095
+  ],
+  "AnalysisDrops": [
+    1870,
+    1945
+  ],
+  "ReadFailures": [
+    0,
+    0
+  ],
+  "SequenceGaps": [
+    0,
+    0
+  ],
+  "CpuSeconds": 145.140625,
+  "MeasuredSeconds": 95.5675002,
+  "CpuMachinePercent": 18.984045922548887,
+  "LogicalProcessors": 8,
+  "PeakSampledWorkingSetBytes": 397807616,
+  "PeakProcessWorkingSetBytes": 414670848,
+  "MaximumRollingMp4Bytes": 81170680,
+  "EventBytes": 134651486,
+  "MaximumTracks": [
+    30,
+    64
+  ],
+  "DistinctTrackIds": [
+    151,
+    581
+  ],
+  "Cycles": [
+    {
+      "Round": 1,
+      "Restarted": "Camera 1",
+      "OtherFrames": 55,
+      "ElapsedSeconds": 6.8196984
+    },
+    {
+      "Round": 1,
+      "Restarted": "Camera 2",
+      "OtherFrames": 53,
+      "ElapsedSeconds": 6.767096
+    },
+    {
+      "Round": 2,
+      "Restarted": "Camera 1",
+      "OtherFrames": 55,
+      "ElapsedSeconds": 6.8470794
+    },
+    {
+      "Round": 2,
+      "Restarted": "Camera 2",
+      "OtherFrames": 53,
+      "ElapsedSeconds": 6.8527951
+    }
+  ],
+  "Event": {
+    "EventId": "1ab6acf40ab24097bef501ffe4d309c1",
+    "TriggeredAtUtc": "2026-10-04T23:16:51.0247074+00:00",
+    "CreatedAtUtc": "2026-10-04T23:17:51.2331058+00:00",
+    "ApplicationVersion": "0.3.0-phase3",
+    "RequestedPreEventDuration": "00:00:30",
+    "RequestedPostEventDuration": "00:00:30",
+    "Cameras": [
+      {
+        "CameraLabel": "Camera 1",
+        "Success": true,
+        "FailureReason": null,
+        "VideoRelativePath": "Camera_1.mp4",
+        "ThumbnailRelativePath": "Camera_1-thumbnail.jpg",
+        "Width": 1920,
+        "Height": 1080,
+        "RequestedFps": 30,
+        "AchievedFps": 28.950808248565366,
+        "ActualPreEventDuration": "00:00:30",
+        "ActualPostEventDuration": "00:00:31.4727923",
+        "RecordingStartUtc": "2026-10-04T23:16:20.8214247+00:00",
+        "RecordingEndUtc": "2026-10-04T23:17:22.4834444+00:00",
+        "DroppedFrameCount": 1,
+        "DeviceId": "@device:pnp:\\\\?\\usb#vid_046d\u0026pid_082d\u0026mi_00#a\u00262aa7f292\u00260\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "DeviceFriendlyName": "HD Pro Webcam C920",
+        "TriggerMonotonic": "00:00:52.1903161",
+        "RecordingStartMonotonic": "00:00:22.0010886",
+        "RecordingEndMonotonic": "00:01:23.6631084",
+        "PlaybackFrameRate": 28.28413991291664,
+        "Warning": null
+      },
+      {
+        "CameraLabel": "Camera 2",
+        "Success": true,
+        "FailureReason": null,
+        "VideoRelativePath": "Camera_2.mp4",
+        "ThumbnailRelativePath": "Camera_2-thumbnail.jpg",
+        "Width": 1280,
+        "Height": 720,
+        "RequestedFps": 30,
+        "AchievedFps": 29.689710087253722,
+        "ActualPreEventDuration": "00:00:30",
+        "ActualPostEventDuration": "00:00:30.4799852",
+        "RecordingStartUtc": "2026-10-04T23:16:19.9921347+00:00",
+        "RecordingEndUtc": "2026-10-04T23:17:21.4805954+00:00",
+        "DroppedFrameCount": 0,
+        "DeviceId": "@device:pnp:\\\\?\\usb#vid_328f\u0026pid_00c0\u0026mi_00#9\u002659a0e33\u00261\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "DeviceFriendlyName": "EMEET PIXY",
+        "TriggerMonotonic": "00:00:45.3447506",
+        "RecordingStartMonotonic": "00:00:14.3362750",
+        "RecordingEndMonotonic": "00:01:15.8247358",
+        "PlaybackFrameRate": 29.664284433005353,
+        "Warning": null
+      }
+    ],
+    "AnalysisResults": [],
+    "AssociatedTracks": [
+      {
+        "TrackId": "feab256f-178",
+        "CameraId": "@device:pnp:\\\\?\\usb#vid_046d\u0026pid_082d\u0026mi_00#a\u00262aa7f292\u00260\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "CameraLabel": "Camera 1",
+        "TriggerReason": "Manual Save Event",
+        "Duration": "00:00:00.8955479",
+        "PeakAngularVelocity": null,
+        "DirectionChangeDegrees": 175.42607874009911
+      },
+      {
+        "TrackId": "d42802ff-622",
+        "CameraId": "@device:pnp:\\\\?\\usb#vid_328f\u0026pid_00c0\u0026mi_00#9\u002659a0e33\u00261\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "CameraLabel": "Camera 2",
+        "TriggerReason": "Manual Save Event",
+        "Duration": "00:00:01.6963187",
+        "PeakAngularVelocity": null,
+        "DirectionChangeDegrees": 79.38034472384487
+      },
+      {
+        "TrackId": "d42802ff-631",
+        "CameraId": "@device:pnp:\\\\?\\usb#vid_328f\u0026pid_00c0\u0026mi_00#9\u002659a0e33\u00261\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "CameraLabel": "Camera 2",
+        "TriggerReason": "Manual Save Event",
+        "Duration": "00:00:00.8012370",
+        "PeakAngularVelocity": null,
+        "DirectionChangeDegrees": 11.73983816777104
+      },
+      {
+        "TrackId": "d42802ff-633",
+        "CameraId": "@device:pnp:\\\\?\\usb#vid_328f\u0026pid_00c0\u0026mi_00#9\u002659a0e33\u00261\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "CameraLabel": "Camera 2",
+        "TriggerReason": "Manual Save Event",
+        "Duration": "00:00:00.4964761",
+        "PeakAngularVelocity": null,
+        "DirectionChangeDegrees": 87.8524145717015
+      },
+      {
+        "TrackId": "d42802ff-635",
+        "CameraId": "@device:pnp:\\\\?\\usb#vid_328f\u0026pid_00c0\u0026mi_00#9\u002659a0e33\u00261\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "CameraLabel": "Camera 2",
+        "TriggerReason": "Manual Save Event",
+        "Duration": "00:00:00.3032366",
+        "PeakAngularVelocity": null,
+        "DirectionChangeDegrees": 14.805665326255621
+      },
+      {
+        "TrackId": "d42802ff-639",
+        "CameraId": "@device:pnp:\\\\?\\usb#vid_328f\u0026pid_00c0\u0026mi_00#9\u002659a0e33\u00261\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "CameraLabel": "Camera 2",
+        "TriggerReason": "Manual Save Event",
+        "Duration": "00:00:00.4006213",
+        "PeakAngularVelocity": null,
+        "DirectionChangeDegrees": null
+      },
+      {
+        "TrackId": "d42802ff-640",
+        "CameraId": "@device:pnp:\\\\?\\usb#vid_328f\u0026pid_00c0\u0026mi_00#9\u002659a0e33\u00261\u00260000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "CameraLabel": "Camera 2",
+        "TriggerReason": "Manual Save Event",
+        "Duration": "00:00:00",
+        "PeakAngularVelocity": null,
+        "DirectionChangeDegrees": null
+      }
+    ],
+    "TriggerReason": "Manual Save Event"
+  },
+  "Clips": [
+    {
+      "CameraLabel": "Camera 1",
+      "Frames": 1745,
+      "PlaybackFps": 28.284,
+      "DurationSeconds": 61.69565832272663,
+      "Bytes": 66790336
+    },
+    {
+      "CameraLabel": "Camera 2",
+      "Frames": 1825,
+      "PlaybackFps": 29.664,
+      "DurationSeconds": 61.52238403451995,
+      "Bytes": 67320169
+    }
+  ],
+  "FinalizationSeconds": 28.6599487,
+  "CaptureHardwareDropCount": "Unavailable: API exposes delivered frames/read failures, not device-side losses",
+  "Calibration": "Missing for both; no guessed FOV",
+  "HardwareSynchronized": false
+}
