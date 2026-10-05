@@ -1,12 +1,8 @@
 # Build artifacts
 [Bb]in/
 [Oo]bj/
-# Rider / ReSharper — ignore machine-local workspace state but keep the
-# shareable run configuration(s) under .idea/.run so `dotnet`/Rider's Run
-# button works out of the box for anyone who clones this repo.
-.idea/*
-!.idea/.run/
-!.idea/.run/**
+# Rider / ReSharper: shared launch settings live in .run/
+.idea/
 *.user
 *.suo
 

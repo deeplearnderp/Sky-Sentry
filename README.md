@@ -18,7 +18,7 @@ dotnet run --project src/SkySentry.App/SkySentry.App.csproj
 ~~~
 
 Open SkySentry.sln in Rider and select the existing **Sky Sentry** Run/Debug
-configuration in .idea/.run/Sky Sentry.xml.
+configuration in .run/Sky Sentry.run.xml.
 
 ## Recording
 

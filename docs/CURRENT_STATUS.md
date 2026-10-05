@@ -1,5 +1,22 @@
 # Current status
 
+## Permanent repository and Rider checkout
+
+Finalized October 4, 2026 into https://github.com/deeplearnderp/Sky-Sentry.git.
+Normal checkout: `C:/Users/OokerDooker/RiderProjects/SkySentry`, branch `main`, tracking `origin/main`.
+Initial commit: `594b78e405ebf1bb7e705ec6321736fd1242786b`, message `Initial Sky Sentry application`.
+The completed development worktree remains intact at `C:/Users/OokerDooker/RiderProjects/copilot-worktrees/SkySentry/deeplearnderp-scaling-waffle`.
+
+Only source, tests, durable documentation and shared launch settings are versioned. Build output, `.idea` user/index/cache state, runtime data, footage and temporary hardware artifacts are ignored. Existing local Rider metadata was preserved on disk and removed from the unborn main index before population.
+
+The shared Rider configuration is `.run/Sky Sentry.run.xml`, name **Sky Sentry**, targeting `src/SkySentry.App/SkySentry.App.csproj` (`net8.0-windows`, WPF WinExe). Its project and working-directory paths use `$PROJECT_DIR$`; it has a build-before-launch step. Rider did not discover the previous `.idea/.run` location, so it was moved to the supported solution-level `.run` directory. Official reference: https://www.jetbrains.com/help/rider/Run_Debug_Configuration.html.
+
+From the normal main checkout: Debug solution build succeeded with zero warnings/errors and all 96 ordinary tests passed. Rider loaded ten projects, displayed the shared Run entry, built and launched the dashboard with its Run button. The process path was under the normal checkout. Both camera panels appeared; HD Pro Webcam C920 and EMEET PIXY enumerated. Standalone and Rider-launched instances exited cleanly. No long hardware soak was repeated for repository finalization.
+
+Rider has the solution loaded and Sky Sentry selected. Press the green Run triangle; no manual configuration is needed. A separate older directory-only SkySentry window may still be open; use the window titled `SkySentry [C:/Users/OokerDooker/RiderProjects/SkySentry]` with the ten-project Solution tree.
+
+The old worktree can be removed later through Git worktree management once its ignored `.validation-dual` footage is separately preserved if wanted. That footage is intentionally absent from GitHub. No worktree was deleted in this task.
+
 Updated October 4, 2026. Phase 3 is approved. The dual-physical-camera stabilization pass is complete, with the limitations recorded in [DUAL_CAMERA_VALIDATION.md](DUAL_CAMERA_VALIDATION.md).
 
 Camera 1 is HD Pro Webcam C920 at 1920x1080@30; Camera 2 is EMEET PIXY at 1280x720@30. The accepted real event decoded both approximately 61.7/61.5-second clips with full 30-second pre/post coverage, correct device metadata and thumbnails; both recorders stayed healthy. Independent repeated hardware restart cycles and GUI Stop/Start passed. Both FOV calibrations remain Missing.

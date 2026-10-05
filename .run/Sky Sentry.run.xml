@@ -12,6 +12,6 @@
     <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
     <option name="PROJECT_KIND" value="DotNetCore" />
     <option name="PROJECT_TFM" value="net8.0-windows" />
-    <method v="2" />
+    <method v="2"><option name="Build" /></method>
   </configuration>
 </component>
